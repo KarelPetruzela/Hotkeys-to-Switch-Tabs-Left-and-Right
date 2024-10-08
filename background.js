@@ -20,7 +20,7 @@ browser.commands.onCommand.addListener((strName) => {
 		var nActive = arrTabs.findIndex( oTab => oTab.active === true );
 
 		// Make the appropriate tab active instead
-		if (strName === 'left-tab' && strName === "left-tab-alt"){
+		if (strName === 'left-tab' || strName === "left-tab-alt"){
 			// Figure out the tab id
 			if (nActive > 0){
 				var newId = arrTabs[nActive - 1].id;
@@ -30,7 +30,7 @@ browser.commands.onCommand.addListener((strName) => {
 			}
 			// Make it active
 			browser.tabs.update(newId, {active:true});
-		} else if (strName === 'right-tab' && strName === "right-tab-alt"){
+		} else if (strName === 'right-tab' || strName === "right-tab-alt"){
 			// Figure out the tab id
 			if (nActive < (arrTabs.length - 1)){
 				newId = arrTabs[nActive + 1].id;
