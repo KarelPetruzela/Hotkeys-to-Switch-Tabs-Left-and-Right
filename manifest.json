@@ -5,7 +5,7 @@
 	"version": "1.0",
 	"applications":{
 		"gecko": {
-			"id": "tabSwitchMapping",
+			"id": "tab-switch-mapping",
 			"strict_min_version": "60.0"
 		}
 	},
