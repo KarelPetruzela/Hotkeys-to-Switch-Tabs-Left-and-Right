@@ -33,7 +33,7 @@
 				"default": "Ctrl+k"
 			},
 			"description": "Switch to tab to the right"
-		}
+		},
 		"left-tab-alt": {
 			"suggested_key": {
 				"default": "Alt+j"
