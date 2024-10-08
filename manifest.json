@@ -5,7 +5,7 @@
 	"version": "1.0",
 	"applications":{
 		"gecko": {
-			"id": "tab-switch-mapping",
+			"id": "tab-switch-mapping@petruzela.com",
 			"strict_min_version": "60.0"
 		}
 	},
@@ -23,28 +23,16 @@
 	},
 	"commands": {
 		"left-tab": {
-			"suggested_key": {
-				"default": "Ctrl+j"
-			},
-			"description": "Switch to tab to the left"
+			"description": "Switch to tab to the left (up)"
 		},
 		"right-tab": {
-			"suggested_key": {
-				"default": "Ctrl+k"
-			},
-			"description": "Switch to tab to the right"
+			"description": "Switch to tab to the right (down)"
 		},
 		"left-tab-alt": {
-			"suggested_key": {
-				"default": "Alt+j"
-			},
-			"description": "Alternative switch to tab to the left"
+			"description": "Alternative switch to tab to the left (up)"
 		},
 		"right-tab-alt": {
-			"suggested_key": {
-				"default": "Alt+k"
-			},
-			"description": "Alternative switch to tab to the right"
+			"description": "Alternative switch to tab to the right (down)"
 		}
 	}
 }
