@@ -1,17 +1,17 @@
 {
 	"manifest_version": 2,
-	"name": "Hotkeys to Switch Tabs Left and Right",
+	"name": "Hotkeys to Switch Tabs Left and Right with alts",
 	"description": "In case you need more keyboard shortcuts to change tabs.",
-	"version": "0.5",
+	"version": "1.0",
 	"applications":{
 		"gecko": {
-			"id": "left-tab-right-tab@jeffersonscher.com",
+			"id": "tabSwitchMapping",
 			"strict_min_version": "60.0"
 		}
 	},
 	"developer": {
-		"name": "Jefferson \"jscher2000\" Scher",
-		"url": "https://github.com/jscher2000/"
+		"name": "Carlos",
+		"url": "https://github.com/KarelPetruzela/"
 	},
 	"background": {
 		"scripts": [
@@ -24,15 +24,27 @@
 	"commands": {
 		"left-tab": {
 			"suggested_key": {
-				"default": "Ctrl+Alt+Left"
+				"default": "Ctrl+j"
 			},
 			"description": "Switch to tab to the left"
 		},
 		"right-tab": {
 			"suggested_key": {
-				"default": "Ctrl+Alt+Right"
+				"default": "Ctrl+k"
 			},
 			"description": "Switch to tab to the right"
+		}
+		"left-tab-alt": {
+			"suggested_key": {
+				"default": "Alt+j"
+			},
+			"description": "Alternative switch to tab to the left"
+		},
+		"right-tab-alt": {
+			"suggested_key": {
+				"default": "Alt+k"
+			},
+			"description": "Alternative switch to tab to the right"
 		}
 	}
 }
